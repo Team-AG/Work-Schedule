@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+
+
+.image {
+    position: fixed;
+    display: block;
+    padding: 0;
+    margin: 0;
+    height: 28%;
+    width: 100%;
+    opacity: 0.5;
+    image-rendering: auto;
+    image-orientation: inherit;
+    cursor: pointer;
+    overflow: none;
+}
+
+body {
+    font-family: font-family "Roboto",
+        sans-serif;
+    line-height: 1;
+    overflow: none;
+}
+
+textarea {
+    background: transparent;
+    border: none;
+    resize: none;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    font-weight: bold;
+    color: #ff00c8;
+    border-left: 3px solid rgb(255, 255, 255);
+    padding: 10px;
+}
+
+
+
+.jumbotron {
+    text-align: center;
+    opacity: 0.5;
+}
+
+.info {
+    white-space: pre-wrap;
+    background: none;
+    text-align: center;
+    vertical-align: bottom;
+}
+
+.timeArea {
+    text-align: center;
+    border-radius: 15px;
+}
+
+.row {
+    padding: 0.5em;
+    margin-bottom: 0.4em;
+    border: 1px solid gray;
+    border-radius: 0.5em;
+    white-space: pre-wrap;
+    height: 100px;
+    border: 3px solid rgb(255, 255, 255);
+    border-left: none;
+    border-right: none;
+    margin: +5px;
+}
+
+.daily-time {
+    background-color: #ced3ff;
+    color: #497470;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    border: none;
+    overflow: none;
+}
+
+.past {
+    background-color: rgba(121, 121, 121, 0.253);
+  
+}
+
+.present {
+    background-color: rgba(255, 0, 0, 0.123);
+   
+}
+
+.future {
+    background-color: rgba(0, 255, 0, 0.192);
+ 
+}
+
+.icon-instruction-to-save {
+    border-left: 1px solid black;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+    background-color: #ffffff;
+    color: white;
+}
+
+.icon-instruction-to-save i:hover {
+    font-size: 20px;
+    transition: all .3s ease-in-out;
+    overflow: none;
+}
+
+.btn {
+    overflow: none;
+}
+
+
+.button-desgin {
+    overflow: none;
+    position: relative;
+    padding: 0;
+    border: 3px solid #888888;
+    background-color: #f4f5f6;
+}
+
+.button-outline {
+    display: flex;
+    box-shadow: 0px 0px 0px 0px #dddddd, 0px -8px 0px #f4f5f6;
+    border-radius: 50px;
+}
+
+.word {
+    text-align: center;
+    font-family: "Roboto",
+        sans-serif;
+    font-size: 18px;
+    background-color: #888888;
+    color: transparent;
+    text-shadow: 2px 2px 3px rgba(255, 255, 255, 0.5);
+    -webkit-background-clip: text;
+    background-clip: text;
+}
